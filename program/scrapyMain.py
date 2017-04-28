@@ -147,3 +147,14 @@ if __name__ == '__main__' :
 #    q.put(i)
 ##等待所有JOBS完成
 #q.join()
+
+
+
+#多线程中的锁实现可以用如下表示
+#mutex = threading.Lock()
+#if mutex.acquire():
+#	fw = open("filename", 'a')
+#	fw.write(line)
+#	fw.close()
+#	mutex.release()
+#
